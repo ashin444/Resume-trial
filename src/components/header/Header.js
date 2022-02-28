@@ -12,9 +12,10 @@ function Header(props) {
                 <nav id="nav">
                     <ul>
                         <li className="special">
-                            {/* <Link to="/nav-menu" className="menuToggle"><span>Menu</span></Link> */}
-                            <li><Link to="/signup">Sign Up</Link></li>
-                            <li><Link to="/login">Log In</Link></li>
+                            <Link to="/signup" className="menuToggle"><span>Signup</span></Link>
+                        </li>
+                        <li className="special">
+                            <Link to="/login" className="menuToggle"><span>Login</span></Link>
                         </li>
                     </ul>
                 </nav >

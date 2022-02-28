@@ -8,8 +8,8 @@ import Pic03 from '../images/pic03.jpg';
 
 function Home(props) {
     return (
+		
         <div>
-
             {/* Page Wrapper */}
             <div id="page-wrapper">
 			<div className="content">

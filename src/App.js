@@ -4,7 +4,6 @@ import SignUp from "./components/signup/Signup";
 import Login from "./components/login/Login";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import HeaderItems from "./components/header/HeaderItems";
 function App() {
   return (
     <Router>
@@ -12,7 +11,6 @@ function App() {
       <>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/nav-menu" element={<HeaderItems />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
         </Routes>
@@ -20,5 +18,6 @@ function App() {
     </Router >
   );
 }
+
 
 export default App;

@@ -5,8 +5,7 @@ function HeaderItems(props) {
     return (
         <div id="menu">
             < ul >
-                <li><Link to="/">Home</Link></li>
-            
+                <li className="menuToggle"><Link to="/">Home</Link></li>
                 <li><Link to="/signup">Sign Up</Link></li>
                 <li><Link to="/login">Log In</Link></li>
             </ul>
