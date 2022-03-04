@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import {useState,useEffect} from "react";
-import "./Login.css"
+import "./Login.css";
 
 function Login() {
 //   initial values
@@ -80,11 +80,8 @@ const validate = (values)=>{
                             onChange={changeHandler}
                             />
                             <p>{formErrors.password}</p>
+                            <button type="submit" className="btn btn-primary btn-block btn-large">Let me in.</button>
                             </form>
-
-                            <Link to="" className="link btns">
-                                <button type="submit" className="btn btn-primary btn-block btn-large">Let me in.</button>
-                            </Link>
                 </div>
             
     
