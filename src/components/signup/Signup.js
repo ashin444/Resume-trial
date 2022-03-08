@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import {useState,useEffect} from "react";
-import "./Signup.css"
+// import "./Signup.css"
 
 function Signup() {
 //   initial values
@@ -87,10 +87,10 @@ const validate = (values)=>{
                             onChange={changeHandler}
                             />
                             <p>{formErrors.password}</p>
-                        </form>
-                            <Link to="/login" className="link btns">
+                            {/* <Link to="/login" className="link btns"> */}
                                 <button type="submit" className="btn btn-primary btn-block btn-large">Let me in.</button>
-                            </Link>
+                            {/* </Link> */}
+                            </form>
                         
                 </div>
             
